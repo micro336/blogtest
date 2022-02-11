@@ -25,7 +25,7 @@ SECRET_KEY = '05_jry$2&s8f@5)ofuh^1+^w4=zw9vcfr+tnizn)zt@n&kl95h'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost ', '.zyj-blog.top','192.168.69.129']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost ', '.zyj-blog.top','172.21.100.34']
 
 
 # Application definition
@@ -122,6 +122,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 #非常重要
-STATICFILES_DIRS = (
+STATIC_ROOT = (
 os.path.join(BASE_DIR, 'static'),
 )
