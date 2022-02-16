@@ -52,7 +52,7 @@ class Migration(migrations.Migration):
         ),
         migrations.AlterField(
             model_name='post',
-            name='excerpt',
+            name='expert',
             field=models.CharField(blank=True, max_length=200, verbose_name='摘要'),
         ),
         migrations.AlterField(
